@@ -39,3 +39,5 @@ The DataAccess.cs is responsible for the connections with the SQL server through
 
 The DataAccess.cs uses Helper.cs to get hold on the connection strings for the SQL server connection. See "Installation"-chapter for more information on how to set your correct connection string. 
 
+All three windows, MainWindow2.xaml, SubWindow.xaml, and ReportForm.cs, are calling DataAccess.cs in order to connect to the SQL server and SQL database. 
+
